@@ -1,0 +1,27 @@
+2019-06-21 12:42:49.548 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2019-06-21 12:42:49.577 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2019-06-21 12:42:49.598 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2019-06-21 12:42:49.606 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2019-06-21 12:42:49.607 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2019-06-21 12:42:49.610 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2019-06-21 12:45:40.294 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2019-06-21 12:45:40.317 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 6559sq606y6l92e9ss5qsqb5q92e566b(String), 2019-06-21 12:45:40.245(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2019-06-21 12:45:40.319 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2019-06-21 12:47:59.437 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2019-06-21 12:47:59.460 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2019-06-21 12:47:59.475 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2019-06-21 12:48:12.564 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2019-06-21 12:48:12.589 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2019-06-21 12:48:12.606 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2019-06-21 12:48:39.916 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2019-06-21 12:48:39.941 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2019-06-21 12:48:39.955 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2019-06-21 12:48:39.964 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2019-06-21 12:48:39.965 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2019-06-21 12:48:39.966 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2019-06-21 12:50:26.889 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2019-06-21 12:50:26.922 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2019-06-21 12:50:26.946 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2019-06-21 12:50:26.956 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2019-06-21 12:50:26.957 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2019-06-21 12:50:26.959 [main] DEBUG com.hzh.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
